@@ -1,0 +1,40 @@
+<h1> <%= gettext("Users management") %> </h1>
+
+<span> <%= link gettext("New user"), to: Routes.user_path(@conn, :new) %> </span>
+<br><br>
+<span> <%= gettext("Search") %> </span>
+
+<table>
+  <thead>
+    <tr>
+      <th> <%= gettext("Name") %> </th>
+      <th> <%= gettext("Family") %> </th>
+      <th> <%= gettext("Mobile") %> </th>
+      <th> <%= gettext("Email") %> </th>
+      <th> <%= gettext("Role") %> </th>
+      <th> <%= gettext("Is blocked") %> </th>
+      <th> <%= gettext("Confirmed at") %> </th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for user <- @users do %>
+    <tr>
+      <td><%= user.name %></td>
+      <td><%= user.family %></td>
+      <td><%= user.mobile %></td>
+      <td><%= user.email %></td>
+      <td><%= convert_role(user.role) %></td>
+      <td><%= convert_is_blocked(user.is_blocked) %></td>
+      <td><%= convert_confirmed_at(user.confirmed_at) %></td>
+
+      <td>
+        <span><%= link gettext("Show"), to: Routes.user_path(@conn, :show, user) %></span>
+        <span><%= link gettext("Edit"), to: Routes.user_path(@conn, :edit, user) %></span>
+        <span><%= link gettext("Delete"), to: Routes.user_path(@conn, :delete, user), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>

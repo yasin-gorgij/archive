@@ -1,0 +1,3 @@
+<h1> <%= gettext("Reports") %> </h1>
+
+<p> <%= link gettext("Users"), to: Routes.report_path(@conn, :users) %> </p>

@@ -1,0 +1,113 @@
+<h1><%= gettext("Settings") %></h1>
+
+<h3><%= gettext("Change name") %></h3>
+
+<%= form_for @name_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
+  <%= if @name_changeset.action do %>
+    <div class="alert alert-danger">
+      <p><% gettext("Oops, something went wrong! Please check the errors below.") %></p>
+    </div>
+  <% end %>
+
+  <%= hidden_input f, :action, name: "action", value: "update_name" %>
+
+  <%= label f, :name, gettext("Name") %>
+  <%= text_input f, :name, required: true %>
+  <%= error_tag f, :name %>
+
+  <div>
+    <%= submit gettext("Change name") %>
+  </div>
+<% end %>
+
+<h3><%= gettext("Change family") %></h3>
+
+<%= form_for @family_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
+  <%= if @family_changeset.action do %>
+    <div class="alert alert-danger">
+      <p><% gettext("Oops, something went wrong! Please check the errors below.") %></p>
+    </div>
+  <% end %>
+
+  <%= hidden_input f, :action, name: "action", value: "update_family" %>
+
+  <%= label f, :family, gettext("Family") %>
+  <%= text_input f, :family, required: true %>
+  <%= error_tag f, :family %>
+
+  <div>
+    <%= submit gettext("Change family") %>
+  </div>
+<% end %>
+
+<h3><%= gettext("Mobile") %></h3>
+
+<%= form_for @mobile_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
+  <%= if @mobile_changeset.action do %>
+    <div class="alert alert-danger">
+      <p><% gettext("Oops, something went wrong! Please check the errors below.") %></p>
+    </div>
+  <% end %>
+
+  <%= hidden_input f, :action, name: "action", value: "update_mobile" %>
+
+  <%= label f, :mobile, gettext("New mobile") %>
+  <%= text_input f, :mobile, required: true %>
+  <%= error_tag f, :mobile %>
+
+  <div>
+    <%= submit gettext("Change mobile") %>
+  </div>
+<% end %>
+
+<h3><%= gettext("Change email") %></h3>
+
+<%= form_for @email_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
+  <%= if @email_changeset.action do %>
+    <div class="alert alert-danger">
+      <p><% gettext("Oops, something went wrong! Please check the errors below.") %></p>
+    </div>
+  <% end %>
+
+  <%= hidden_input f, :action, name: "action", value: "update_email" %>
+
+  <%= label f, :email, gettext("Email") %>
+  <%= email_input f, :email, required: true %>
+  <%= error_tag f, :email %>
+
+  <%= label f, :current_password,gettext("Current password"), for: "current_password_for_email" %>
+  <%= password_input f, :current_password, required: true, name: "current_password", id: "current_password_for_email" %>
+  <%= error_tag f, :current_password %>
+
+  <div>
+    <%= submit gettext("Change email") %>
+  </div>
+<% end %>
+
+<h3><%= gettext("Change password") %></h3>
+
+<%= form_for @password_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
+  <%= if @password_changeset.action do %>
+    <div class="alert alert-danger">
+      <p><%= gettext("Oops, something went wrong! Please check the errors below.") %></p>
+    </div>
+  <% end %>
+
+  <%= hidden_input f, :action, name: "action", value: "update_password" %>
+
+  <%= label f, :password, gettext("New password") %>
+  <%= password_input f, :password, required: true %>
+  <%= error_tag f, :password %>
+
+  <%= label f, :password_confirmation, gettext("Confirm new password") %>
+  <%= password_input f, :password_confirmation, required: true %>
+  <%= error_tag f, :password_confirmation %>
+
+  <%= label f, :current_password, gettext("Current password"), for: "current_password_for_password" %>
+  <%= password_input f, :current_password, required: true, name: "current_password", id: "current_password_for_password" %>
+  <%= error_tag f, :current_password %>
+
+  <div>
+    <%= submit gettext("Change password") %>
+  </div>
+<% end %>

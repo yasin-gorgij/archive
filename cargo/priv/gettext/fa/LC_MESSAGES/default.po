@@ -1,0 +1,554 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: fa\n"
+"Plural-Forms: nplurals=1\n"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:82
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr "لینک تایید به آدرس ایمیل جدید ارسال شده است."
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:63
+#: lib/cargo_web/templates/user_settings/edit.html.eex:83
+msgid "Change email"
+msgstr "تغییر ایمیل"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:23
+#: lib/cargo_web/templates/user_settings/edit.html.eex:39
+msgid "Change family"
+msgstr "تغییر نام خانوادگی"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:59
+msgid "Change mobile"
+msgstr "تغییر موبایل"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:3
+#: lib/cargo_web/templates/user_settings/edit.html.eex:19
+msgid "Change name"
+msgstr "تغییر نام"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:87
+#: lib/cargo_web/templates/user_settings/edit.html.eex:111
+msgid "Change password"
+msgstr "تغییر رمز"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_reset_password/edit.html.eex:14
+#: lib/cargo_web/templates/user_settings/edit.html.eex:102
+msgid "Confirm new password"
+msgstr "تکرار رمز جدید"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:78
+#: lib/cargo_web/templates/user_settings/edit.html.eex:106
+msgid "Current password"
+msgstr "رمز جاری"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:22
+#: lib/cargo_web/templates/report/users.html.eex:9 lib/cargo_web/templates/user/form.html.eex:20
+#: lib/cargo_web/templates/user/index.html.eex:13 lib/cargo_web/templates/user/new.html.eex:22
+#: lib/cargo_web/templates/user_confirmation/new.html.eex:4 lib/cargo_web/templates/user_registration/new.html.eex:22
+#: lib/cargo_web/templates/user_reset_password/new.html.eex:4 lib/cargo_web/templates/user_session/new.html.eex:10
+#: lib/cargo_web/templates/user_settings/edit.html.eex:74
+msgid "Email"
+msgstr "ایمیل"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:116
+msgid "Email change link is invalid or it has expired."
+msgstr "لینک تغییر ایمیل نامعتبر است یا یا مدت اعتبار آن به پایان رسیده."
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:111
+msgid "Email changed successfully."
+msgstr "ایمیل با موفقیت تغییر کرد."
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:19
+#: lib/cargo_web/templates/user/form.html.eex:17 lib/cargo_web/templates/user/new.html.eex:19
+#: lib/cargo_web/templates/user_registration/new.html.eex:19
+msgid "Example: 09123456789"
+msgstr "نمونه: ۰۹۱۲۳۴۵۶۷۸۹"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:23
+#: lib/cargo_web/templates/user/form.html.eex:21 lib/cargo_web/templates/user/new.html.eex:23
+#: lib/cargo_web/templates/user_registration/new.html.eex:23
+msgid "Example: my-email@example.com"
+msgstr "نمونه: my-email@example.com"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:14
+#: lib/cargo_web/templates/report/users.html.eex:7 lib/cargo_web/templates/user/form.html.eex:12
+#: lib/cargo_web/templates/user/index.html.eex:11 lib/cargo_web/templates/user/new.html.eex:14
+#: lib/cargo_web/templates/user_registration/new.html.eex:14 lib/cargo_web/templates/user_settings/edit.html.eex:34
+msgid "Family"
+msgstr "نام خانوادگی"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:161
+msgid "Family did not change"
+msgstr "نام خانوادگی تغییر نکرد."
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:40
+msgid "Family updated successfully."
+msgstr "نام خانوادگی با موفقیت بروزرسانی شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:45
+#: lib/cargo_web/templates/user_registration/new.html.eex:41 lib/cargo_web/templates/user_reset_password/new.html.eex:1
+#: lib/cargo_web/templates/user_session/new.html.eex:26
+msgid "Forgot your password?"
+msgstr "فراموشی رمز"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_reset_password_controller.ex:24
+msgid "If your email is in our system, you will receive instructions to reset your password shortly."
+msgstr "در صورتی که ایمیل شما در سامانه ثبت شده باشد، راهنمای تنظیم مجدد رمز عبور برای شما ارسال خواهد شد."
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_session_controller.ex:21
+msgid "Invalid email/password, did not confirm your email or your account is blocked"
+msgstr "ایمیل/رمز اشتباه است، ایمیل تایید نشده است یا حساب شما مسدود شده است"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_session/new.html.eex:16
+msgid "Keep me logged in for 60 days"
+msgstr "۶۰ روز دسترسی بدون ورود"
+
+#, elixir-format
+#: lib/cargo_web/templates/layout/_user_menu.html.eex:12
+#: lib/cargo_web/templates/page/create_admin.html.eex:44 lib/cargo_web/templates/user_confirmation/new.html.eex:14
+#: lib/cargo_web/templates/user_registration/new.html.eex:40 lib/cargo_web/templates/user_reset_password/edit.html.eex:25
+#: lib/cargo_web/templates/user_session/new.html.eex:1 lib/cargo_web/templates/user_session/new.html.eex:20
+msgid "Log in"
+msgstr "ورود"
+
+#, elixir-format
+#: lib/cargo_web/templates/layout/_user_menu.html.eex:9
+msgid "Log out"
+msgstr "خروج"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_session_controller.ex:30
+msgid "Logged out successfully."
+msgstr "خروج موفقیت آمیز بود."
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:18
+#: lib/cargo_web/templates/report/users.html.eex:8 lib/cargo_web/templates/user/form.html.eex:16
+#: lib/cargo_web/templates/user/index.html.eex:12 lib/cargo_web/templates/user/new.html.eex:18
+#: lib/cargo_web/templates/user_registration/new.html.eex:18 lib/cargo_web/templates/user_settings/edit.html.eex:43
+msgid "Mobile"
+msgstr "موبایل"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:176
+msgid "Mobile did not change"
+msgstr "موبایل تغییر نکرد"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:58
+msgid "Mobile updated successfully."
+msgstr "موبایل با موفقیت بروزرسانی شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:10
+#: lib/cargo_web/templates/report/users.html.eex:6 lib/cargo_web/templates/user/form.html.eex:8
+#: lib/cargo_web/templates/user/index.html.eex:10 lib/cargo_web/templates/user/new.html.eex:10
+#: lib/cargo_web/templates/user_registration/new.html.eex:10 lib/cargo_web/templates/user_settings/edit.html.eex:14
+msgid "Name"
+msgstr "نام"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:146
+msgid "Name did not change"
+msgstr "نام تغییر نکرد"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:22
+msgid "Name updated successfully."
+msgstr "نام با موفقیت بروزرسانی شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/user_settings/edit.html.eex:54
+msgid "New mobile"
+msgstr "موبایل جدید"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_reset_password/edit.html.eex:10
+#: lib/cargo_web/templates/user_settings/edit.html.eex:98
+msgid "New password"
+msgstr "رمز جدید"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:11
+#: lib/cargo_web/templates/page/create_admin.html.eex:15 lib/cargo_web/templates/user/form.html.eex:9
+#: lib/cargo_web/templates/user/form.html.eex:13 lib/cargo_web/templates/user/new.html.eex:11
+#: lib/cargo_web/templates/user/new.html.eex:15 lib/cargo_web/templates/user_registration/new.html.eex:11
+#: lib/cargo_web/templates/user_registration/new.html.eex:15
+msgid "Only characters and space"
+msgstr "فقط از حروف و فاصله استفاده کنید"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:6
+#: lib/cargo_web/templates/user/form.html.eex:4 lib/cargo_web/templates/user/new.html.eex:6
+#: lib/cargo_web/templates/user_registration/new.html.eex:6 lib/cargo_web/templates/user_reset_password/edit.html.eex:6
+#: lib/cargo_web/templates/user_settings/edit.html.eex:8 lib/cargo_web/templates/user_settings/edit.html.eex:28
+#: lib/cargo_web/templates/user_settings/edit.html.eex:48 lib/cargo_web/templates/user_settings/edit.html.eex:68
+#: lib/cargo_web/templates/user_settings/edit.html.eex:92
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr "لطفا موارد خطا را بررسی کنید."
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:26
+#: lib/cargo_web/templates/user/new.html.eex:26 lib/cargo_web/templates/user_registration/new.html.eex:26
+#: lib/cargo_web/templates/user_session/new.html.eex:13
+msgid "Password"
+msgstr "رمز"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:30
+#: lib/cargo_web/templates/user/new.html.eex:30 lib/cargo_web/templates/user_registration/new.html.eex:30
+msgid "Password confirmation"
+msgstr "تکرار رمز"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_reset_password_controller.ex:41
+msgid "Password reset successfully."
+msgstr "تنظیم مجدد رمز موفق بود."
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_settings_controller.ex:98
+msgid "Password updated successfully."
+msgstr "رمز با موفقیت بروزرسانی شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/layout/_user_menu.html.eex:11
+#: lib/cargo_web/templates/page/create_admin.html.eex:39 lib/cargo_web/templates/user_confirmation/new.html.eex:13
+#: lib/cargo_web/templates/user_registration/new.html.eex:1 lib/cargo_web/templates/user_registration/new.html.eex:35
+#: lib/cargo_web/templates/user_reset_password/edit.html.eex:24 lib/cargo_web/templates/user_session/new.html.eex:25
+msgid "Register"
+msgstr "ثبت‌نام"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_confirmation/new.html.eex:8
+msgid "Resend"
+msgstr "ارسال مجدد"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_confirmation/new.html.eex:1
+msgid "Resend confirmation instructions"
+msgstr "ارسال مجدد راهنمای تایید"
+
+#, elixir-format
+#: lib/cargo_web/templates/user_reset_password/edit.html.eex:1
+#: lib/cargo_web/templates/user_reset_password/edit.html.eex:19
+msgid "Reset password"
+msgstr "تنظیم مجدد رمز"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_reset_password_controller.ex:56
+msgid "Reset password link is invalid or it has expired."
+msgstr "لینک تنظیم مجدد رمز عبور نامعتبر است یا مدت اعتبار آن به پایان رسیده."
+
+#, elixir-format
+#: lib/cargo_web/templates/user_reset_password/new.html.eex:8
+msgid "Send instructions to reset password"
+msgstr "ارسال راهنمای تنظیم مجدد رمز"
+
+#, elixir-format
+#: lib/cargo_web/templates/layout/_user_menu.html.eex:8
+#: lib/cargo_web/templates/user_settings/edit.html.eex:1
+msgid "Settings"
+msgstr "تنظیمات"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:27
+#: lib/cargo_web/templates/page/create_admin.html.eex:31 lib/cargo_web/templates/user/new.html.eex:27
+#: lib/cargo_web/templates/user/new.html.eex:31 lib/cargo_web/templates/user_registration/new.html.eex:27
+#: lib/cargo_web/templates/user_registration/new.html.eex:31
+msgid "Should be al least 10 characters, at least one lower case, upper case and numbers or special characters"
+msgstr "حداقل ۱۰ کاراکتر باشد که شامل حروف کوچک، حروف بزرگ و عدد یا کاراکتر خاص باشد"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_confirmation_controller.ex:48
+msgid "User confirmation link is invalid or it has expired."
+msgstr "لینک تایید کاربر نامعتبر است یا مدت اعتبار آن به پایان رسیده."
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_confirmation_controller.ex:34
+msgid "User confirmed successfully."
+msgstr "کاربر با موفقیت تایید شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/page/index.html.eex:2
+msgid "Welcome to %{name}!"
+msgstr "خوش آمدی %{name}"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_auth.ex:136
+msgid "You must log in to access this page."
+msgstr "لطفا وارد سامانه شوید."
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:107
+msgid "at least one digit or punctuation character"
+msgstr "حداقل باید یک عدد یا کاراکتر ویژه استفاده کنید"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:104
+msgid "at least one lower case character"
+msgstr "حداقل باید یک حرف کوچک استفاده کنید"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:105
+msgid "at least one upper case character"
+msgstr "حداقل باید یک حرف بزرگ استفاده کنید"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:191
+msgid "did not change"
+msgstr "هیچ تغییری وجود ندارد"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:210
+msgid "does not match password"
+msgstr "رمزهای وارد شده مشابه هم نیستند"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:245
+msgid "is not valid"
+msgstr "نامعتبر است"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:92
+msgid "must have the @ sign and no spaces"
+msgstr "باید از علامت @ استفاده کنید و فاصله‌ها را حذف کنید"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:82
+msgid "must start with 0 (zero)"
+msgstr "باید با صفر شروع شود"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:65 lib/cargo/accounts/user.ex:74
+msgid "only characters and space are allowed"
+msgstr "فقط از حروف و فاصله استفاده کنید"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:44
+msgid "passwords do not match"
+msgstr "رمزهای وارد شده مشابه هم نیستند"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_controller.ex:160
+#: lib/cargo_web/controllers/user_registration_controller.ex:24
+msgid "User created successfully. Please check your email for confirmation instructions."
+msgstr "کاربر با موفقیت ایجاد شد. برای تایید حساب به ایمیل خود مراجعه کنید."
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:102
+msgid "should be at least 10 characters"
+msgstr "حداقل باید ۱۰ کاراکتر باشد"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:103
+msgid "should be at most 80 characters"
+msgstr "حداکثر باید ۸۰ کاراکتر باشد"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:94
+msgid "should be at most 160 characters"
+msgstr "حداکثر باید ۱۶۰ کاراکتر باشد"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:1
+msgid "Create admin"
+msgstr "ایجاد مدیر سیستم"
+
+#, elixir-format
+#: lib/cargo_web/templates/page/create_admin.html.eex:34
+#: lib/cargo_web/templates/report/users.html.eex:10 lib/cargo_web/templates/user/form.html.eex:24
+#: lib/cargo_web/templates/user/index.html.eex:14 lib/cargo_web/templates/user/new.html.eex:34
+msgid "Role"
+msgstr "نقش"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:83
+msgid "should be 11 digits"
+msgstr "باید ۱۱ رقم باشد"
+
+#, elixir-format
+#: lib/cargo/accounts/user.ex:67 lib/cargo/accounts/user.ex:76
+msgid "should be at most 50 characters"
+msgstr "حداکثر باید ۵۰ کاراکتر باشد"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/edit.html.eex:5
+#: lib/cargo_web/templates/user/new.html.eex:43 lib/cargo_web/templates/user/show.html.eex:42
+msgid "Back"
+msgstr "برگشت"
+
+#, elixir-format
+#: lib/cargo_web/templates/report/users.html.eex:12
+#: lib/cargo_web/templates/user/index.html.eex:16
+msgid "Confirmed at"
+msgstr "زمان تایید"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:36
+msgid "Confirmed at:"
+msgstr "زمان تایید:"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/index.html.eex:35
+msgid "Delete"
+msgstr "حذف"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/index.html.eex:34
+#: lib/cargo_web/templates/user/show.html.eex:43
+msgid "Edit"
+msgstr "ویرایش"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/edit.html.eex:1
+msgid "Edit user"
+msgstr "حذف کاربر"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:21
+msgid "Email:"
+msgstr "ایمیل:"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:11
+msgid "Family:"
+msgstr "نام خانوادگی:"
+
+#, elixir-format
+#: lib/cargo_web/templates/report/users.html.eex:11
+#: lib/cargo_web/templates/user/index.html.eex:15
+msgid "Is blocked"
+msgstr "وضعیت مسدودی"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:31
+msgid "Is blocked:"
+msgstr "وضعیت مسدودی:"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:16
+msgid "Mobile:"
+msgstr "موبایل:"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:6
+msgid "Name:"
+msgstr "نام:"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/index.html.eex:3
+#: lib/cargo_web/templates/user/new.html.eex:1
+msgid "New user"
+msgstr "کاربر جدید"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:26
+msgid "Role:"
+msgstr "نقش:"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/form.html.eex:29
+#: lib/cargo_web/templates/user/new.html.eex:39
+msgid "Save"
+msgstr "ذخیره"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/index.html.eex:33
+msgid "Show"
+msgstr "نمایش"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:1
+msgid "Show user"
+msgstr "نمایش کاربر"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_controller.ex:106
+msgid "User deleted successfully."
+msgstr "کاربر با موفقیت حذف شد."
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_controller.ex:85
+msgid "User updated successfully."
+msgstr "کاربر با موفقیت بروزرسانی شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/layout/_user_menu.html.eex:5
+#: lib/cargo_web/templates/management/index.html.eex:1
+msgid "Management"
+msgstr "مدیریت"
+
+#, elixir-format
+#: lib/cargo_web/templates/management/index.html.eex:3
+#: lib/cargo_web/templates/report/index.html.eex:3
+msgid "Users"
+msgstr "کاربران"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_controller.ex:123
+msgid "User blocked successfully."
+msgstr "کاربر با موفقیت مسدود شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:48
+msgid "Block"
+msgstr "مسدود کردن"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/show.html.eex:46
+msgid "Unblock"
+msgstr "رفع مسدودی"
+
+#, elixir-format
+#: lib/cargo_web/controllers/user_controller.ex:140
+msgid "User unblocked successfully."
+msgstr "کاربر با موفقیت رفع مسدودی شد."
+
+#, elixir-format
+#: lib/cargo_web/templates/layout/_user_menu.html.eex:6
+#: lib/cargo_web/templates/report/index.html.eex:1
+msgid "Reports"
+msgstr "گزارش‌ها"
+
+#, elixir-format
+#: lib/cargo_web/templates/report/users.html.eex:1
+msgid "Users Report"
+msgstr "گزارش کاربران"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/index.html.eex:1
+msgid "Users management"
+msgstr "مدیریت کاربران"
+
+#, elixir-format
+#: lib/cargo_web/templates/user/index.html.eex:5
+msgid "Search"
+msgstr "جست‌وجو"

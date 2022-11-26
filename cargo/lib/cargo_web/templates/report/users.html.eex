@@ -1,0 +1,30 @@
+<h1> <%= gettext("Users Report") %> </h1>
+
+<table>
+  <thead>
+    <tr>
+      <th> <%= gettext("Name") %> </th>
+      <th> <%= gettext("Family") %> </th>
+      <th> <%= gettext("Mobile") %> </th>
+      <th> <%= gettext("Email") %> </th>
+      <th> <%= gettext("Role") %> </th>
+      <th> <%= gettext("Is blocked") %> </th>
+      <th> <%= gettext("Confirmed at") %> </th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for user <- @users do %>
+    <tr>
+      <td><%= user.name %></td>
+      <td><%= user.family %></td>
+      <td><%= user.mobile %></td>
+      <td><%= user.email %></td>
+      <td><%= convert_role(user.role) %></td>
+      <td><%= convert_is_blocked(user.is_blocked) %></td>
+      <td><%= convert_confirmed_at(user.confirmed_at) %></td>
+    </tr>
+<% end %>
+  </tbody>
+</table>

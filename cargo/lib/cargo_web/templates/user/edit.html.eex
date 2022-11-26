@@ -1,0 +1,5 @@
+<h1><%= gettext("Edit user") %></h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.user_path(@conn, :update, @user)) %>
+
+<span><%= link gettext("Back"), to: Routes.user_path(@conn, :index) %></span>

@@ -1,0 +1,14 @@
+<ul>
+<%= if @current_user do %>
+  <li><%= @current_user.name %></li>
+  <%= if @current_user.role == "admin" do %>
+    <li><%= link gettext("Management"), to: Routes.management_path(@conn, :index) %></li>
+    <li><%= link gettext("Reports"), to: Routes.report_path(@conn, :index) %></li>
+  <% end %>
+    <li><%= link gettext("Settings"), to: Routes.user_settings_path(@conn, :edit) %></li>
+    <li><%= link gettext("Log out"), to: Routes.user_session_path(@conn, :delete), method: :delete %></li>
+<% else %>
+  <li><%= link gettext("Register"), to: Routes.user_registration_path(@conn, :new) %></li>
+  <li><%= link gettext("Log in"), to: Routes.user_session_path(@conn, :new) %></li>
+<% end %>
+</ul>

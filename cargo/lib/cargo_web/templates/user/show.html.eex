@@ -1,0 +1,49 @@
+<h1> <%= gettext("Show user") %> </h1>
+
+<ul>
+
+  <li>
+    <strong> <%= gettext("Name:") %> </strong>
+    <%= @user.name %>
+  </li>
+
+  <li>
+    <strong> <%= gettext("Family:") %> </strong>
+    <%= @user.family %>
+  </li>
+
+  <li>
+    <strong> <%= gettext("Mobile:") %> </strong>
+    <%= @user.mobile %>
+  </li>
+
+  <li>
+    <strong> <%= gettext("Email:") %> </strong>
+    <%= @user.email %>
+  </li>
+
+  <li>
+    <strong> <%= gettext("Role:") %> </strong>
+    <%= convert_role(@user.role) %>
+  </li>
+
+  <li>
+    <strong> <%= gettext("Is blocked:") %> </strong>
+    <%= convert_is_blocked(@user.is_blocked) %>
+  </li>
+
+  <li>
+    <strong> <%= gettext("Confirmed at:") %> </strong>
+    <%= convert_confirmed_at(@user.confirmed_at) %>
+  </li>
+
+</ul>
+
+<span><%= link gettext("Back"), to: Routes.user_path(@conn, :index) %></span>
+<span><%= link gettext("Edit"), to: Routes.user_path(@conn, :edit, @user) %></span>
+
+<%= if @user.is_blocked do %>
+  <span><%= link gettext("Unblock"), to: Routes.user_path(@conn, :unblock, @user) %></span>
+<% else %>
+  <span><%= link gettext("Block"), to: Routes.user_path(@conn, :block, @user) %></span>
+<% end %>
